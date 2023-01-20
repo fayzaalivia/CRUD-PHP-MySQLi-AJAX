@@ -15,9 +15,10 @@ $query = "INSERT INTO tbl_siswa (nisn, nama_lengkap, alamat) VALUES ('$nisn','$n
 if($connection->query($query)) {
 
     //redirect ke halaman index.php
-    header("location: index.php");
+    echo "success";
 }else{
 
     //pesan error gagal insert data
-    echo "Data Gagal Disimpan!";
+    echo "error";
 }
+?>

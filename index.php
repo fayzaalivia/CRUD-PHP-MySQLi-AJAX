@@ -69,9 +69,9 @@
        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
        <script src="//cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
        <script>
-        $(document).ready( function() {
-            $('#myTable').DataTable();
-        } );
+        $(document).ready( function () {
+          $('#myTable').DataTable();
+      } );
        </script>
 </body>
 </html>
